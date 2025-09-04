@@ -1,0 +1,37 @@
+{
+  "name": "chatbot-vercel",
+  "version": "1.0.0",
+  "description": "Chatbot con WebSocket para deploy en Vercel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "socket.io": "^4.7.4",
+    "socket.io-client": "^4.7.4",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/ws": "^8.5.8",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "chatbot",
+    "websocket",
+    "nextjs",
+    "vercel"
+  ],
+  "author": "Eduardo Saavedra",
+  "license": "MIT"
+}
